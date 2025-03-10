@@ -47,7 +47,7 @@ jobs:
           version-file: .tool-versions
 
       - name: Restore dependencies cache
-        uses: actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f # v4.2.1
+        uses: actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf # v4.2.2
         env:
           cache-key: deps
         with:
@@ -83,7 +83,7 @@ jobs:
 
       - name: Restore PLTs cache
         id: restore_plts_cache
-        uses: actions/cache/restore@0c907a75c2c80ebcb7f088228285e798b750cf8f # v4.2.1
+        uses: actions/cache/restore@d4323d4df104b026a6aa633fdb11d772146be0bf # v4.2.2
         env:
           cache-key: plts
         with:
@@ -102,7 +102,7 @@ jobs:
           mix dialyzer --plt
 
       - name: Save PLTs cache
-        uses: actions/cache/save@0c907a75c2c80ebcb7f088228285e798b750cf8f # v4.2.1
+        uses: actions/cache/save@d4323d4df104b026a6aa633fdb11d772146be0bf # v4.2.2
         env:
           cache-key: plts
         if: steps.restore_plts_cache.outputs.cache-hit != 'true'
