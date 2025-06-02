@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:16.4@sha256:e62fbf9d3e2b49816a32c400ed2dba83e3b361e6833e624024309c35d334b412
+    image: postgres:16.9@sha256:47053cd4ee3f096afc744e53e3280de7b29b3670d2f2196c2acc0c6470923c99
     container_name: ${POSTGRES_DB}-db
     restart: always
     environment:
