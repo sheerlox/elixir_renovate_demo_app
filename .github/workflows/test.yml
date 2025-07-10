@@ -41,7 +41,7 @@ jobs:
 
       - name: Set up BEAM
         id: setup-beam
-        uses: erlef/setup-beam@75edbb82877ab10edeb12a99c3cf2f0909f3dc87 # v1.20.1
+        uses: erlef/setup-beam@8e7fdef09ffa3ea54328b5000c170a3b9b20ca96 # v1.20.3
         with:
           version-type: strict
           version-file: .tool-versions
