@@ -45,7 +45,7 @@ defmodule ElixirRenovateDemo.MixProject do
       {:ecto_sql, "== 3.12.1"},
       {:postgrex, "== 0.19.3"},
       {:phoenix_html, "== 4.2.0"},
-      {:phoenix_live_reload, "== 1.5.3", only: :dev},
+      {:phoenix_live_reload, "== 1.6.2", only: :dev},
       {:phoenix_live_view, "== 0.20.17"},
       {:floki, "== 0.37.0", only: :test},
       {:phoenix_live_dashboard, "== 0.8.6"},
