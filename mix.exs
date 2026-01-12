@@ -64,7 +64,7 @@ defmodule ElixirRenovateDemo.MixProject do
       {:telemetry_poller, "== 1.1.0"},
       {:gettext, "== 0.24.0"},
       {:jason, "== 1.4.4"},
-      {:dns_cluster, "== 0.1.3"},
+      {:dns_cluster, "== 0.2.0"},
       {:bandit, "== 1.6.3"},
       {:dialyxir, "== 1.4.5", only: [:dev, :test], runtime: false}
     ]
