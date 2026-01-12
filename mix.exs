@@ -41,7 +41,7 @@ defmodule ElixirRenovateDemo.MixProject do
   defp deps do
     [
       {:phoenix, "== 1.7.18"},
-      {:phoenix_ecto, "== 4.6.3"},
+      {:phoenix_ecto, "== 4.7.0"},
       {:ecto_sql, "== 3.12.1"},
       {:postgrex, "== 0.19.3"},
       {:phoenix_html, "== 4.2.0"},
